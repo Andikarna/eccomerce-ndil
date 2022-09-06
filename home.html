@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="assets/images/PP.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>NDILSHOP</title>
+</head>
+<body>
+  
+
+  <header>
+    <ul class="nav-list animate__animated animate__slideInDown">
+      <li class="nav-item">
+        <a href="home.html" class="nav-link">
+          <span class="nav-icon fa fa-home"></span>
+          <span class="nav-text">HOME</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="category/product.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-store"></span>
+          <span class="nav-text">PRODUCT</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="category/category.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-clipboard-list"></span>
+          <span class="nav-text">CATEGORY</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="category/kontak.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-user"></span>
+          <span class="nav-text">CONTACS</span>
+        </a>
+      </li>      
+    </ul>
+  </header>
+
+  <main class="animate__animated animate__fadeIn">
+    <!-- produuct list -->
+    
+    <div class="text-box">
+      <h1>Welcome..  <span class="auto-input"></span></h1>
+      <p>Thank you for coming here 😃 , you can buy anything in here.</p>
+      <a href='category/product.html'class="btn-p">Product</a>
+      <a href='category/category.html'class='btn'>Category</a>
+    </div>
+    <div>
+        <img class="pic-home"src="../assets/images/Banner-preview.png" alt="">
+    </div>
+    <footer>
+      <p>Copyright <span id="year"></span>🧤</p> 
+    </footer>
+  </main>  
+
+  <script src="assets/source.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+        var typed = new Typed(".auto-input",{
+            strings : ["Good Morning","Good Afternoon","Good Night"], 
+            typeSpeed : 100,
+            backSpeed : 150,
+            loop : true
+        } )
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="../assets/images/PP.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>NDILSHOP</title>
+</head>
+<body>
+  <div class="chat fa-brands fa-square-whatsapp animate__animated animate__flash" onclick="chat('chatting')"></div>
+  
+  <header>
+    <ul class="nav-list animate__animated animate__slideInDown">
+      <li class="nav-item">
+        <a href="../home.html" class="nav-link">
+          <span class="nav-icon fa fa-home"></span>
+          <span class="nav-text">HOME</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="../category/product.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-store"></span>
+          <span class="nav-text">PRODUCT</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="../category/category.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-clipboard-list"></span>
+          <span class="nav-text">CATEGORY</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="../category/kontak.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-user"></span>
+          <span class="nav-text">CONTACS</span>
+        </a>
+      </li>      
+    </ul>
+  </header>
+
+  <img class="pic-home animate__animated animate__bounceInDown" src="assets/images/bsell.png" alt="">
+  <main>
+    <!-- produuct list -->
+    <div class="container">
+
+      <h2 class="title animate__animated animate__bounceInDown">SHOES</h2>
+      <!-- row -->
+      <div class="row animate__animated animate__jackInTheBox">
+        
+        <div class="col-l" onclick="buy('Sepatu Putih Polos' , 200000)">
+          <img src="../assets/images/bs2.jfif" alt="">
+          <h4>Sepatu Putih Polos</h4>
+          <p>Rp. 200.000</p>
+        </div>
+        
+        <div class="col-l" onclick="buy('Sepatu Hitam' , 80000)" >
+          <img src="../assets/images/product-2.jpg" alt="">
+          <h4>Sepatu Hitam</h4>
+          <p>Rp. 80.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Sepatu Abu abu' ,80000)">
+          <img src="../assets/images/product-5.jpg" alt="">
+          <h4>Sepatu abu abu</h4>
+          <p>Rp. 80.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Sepatu sisi merah' , 50000)">
+          <img src="../assets/images/product-10.jpg" alt="">
+          <h4>Sepatu sisi merah</h4>
+          <p>Rp. 50.000</p>
+        </div>
+
+        
+        <div class="col-l" onclick="buy('Kaos kaki', 50000)">
+          <img src="../assets/images/product-7.jpg" alt="">
+          <h4>Kaos kaki</h4>
+          <p>Rp. 50.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Sepatu Pendek Abu', 60000)">
+          <img src="../assets/images/product-11.jpg" alt="">
+          <h4>Sepatu pendek abu abu</h4>
+          <p>Rp. 60.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Jordan', 1700000)">
+          <img src="../assets/images/shoes5.jpg" alt="">
+          <h4>Sepatu Jordan</h4>
+          <p>Rp. 1.700.000</p>
+        </div>
+
+        
+        <div class="col-l" onclick="buy('Jordan Hitam' , 1500000)">
+          <img src="../assets/images/shoes6.jpg" alt="">
+          <h4>Jordan Hitam Putih</h4>
+          <p>Rp. 1.500.000</p>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+  
+  <footer>
+    <p>Copyright <span id="year"></span>🧤</p> 
+  </footer>
+
+  <script src="../assets/source.js"></script>
+
+</body>
+</html>

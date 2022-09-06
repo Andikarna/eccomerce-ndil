@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="../assets/images/PP.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>NDILSHOP</title>
+</head>
+<body>
+  <div class="chat fa-brands fa-square-whatsapp animate__animated animate__flash" onclick="chat('chatting')"></div>
+  
+  <header>
+    <ul class="nav-list animate__animated animate__slideInDown">
+      <li class="nav-item">
+        <a href="../home.html" class="nav-link">
+          <span class="nav-icon fa fa-home"></span>
+          <span class="nav-text">HOME</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="../category/product.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-store"></span>
+          <span class="nav-text">PRODUCT</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="../category/category.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-clipboard-list"></span>
+          <span class="nav-text">CATEGORY</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="../category/kontak.html" class="nav-link">
+          <span class="nav-icon fa-solid fa-user"></span>
+          <span class="nav-text">CONTACS</span>
+        </a>
+      </li>      
+    </ul>
+  </header>
+
+  <img class="pic-home animate__animated animate__bounceInDown" src="assets/images/bsell.png" alt="">
+  <main>
+    <!-- produuct list -->
+    <div class="container">
+
+      <h2 class="title animate__animated animate__bounceInDown">PANTS</h2>
+      <!-- row -->
+      <div class="row animate__animated animate__jackInTheBox">
+        
+        <div class="col-l" onclick="buy('Celana jin cewe' , 120000)" >
+          <img src="../assets/images/celana.jpg" alt="">
+          <h4>Celana Jin cewek</h4>
+          <p>Rp. 120.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Training Hitam' , 80000)">
+          <img src="../assets/images/pants3.jfif" alt="">
+          <h4>Training Hitam</h4>
+          <p>Rp. 80.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Celana kantong' , 150000)">
+          <img src="../assets/images/pants4.jfif" alt="">
+          <h4>Celana kantong</h4>
+          <p>Rp. 150.000</p>
+        </div>
+
+        
+        <div class="col-l" onclick="buy('Celana Hitam Corak', 120000)">
+          <img src="../assets/images/pants5.jpg" alt="">
+          <h4>Celana Hitam corak</h4>
+          <p>Rp. 120.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Celana Jin sobek', 180000)">
+          <img src="../assets/images/pants6.jpg" alt="">
+          <h4>Celana jin sobek</h4>
+          <p>Rp. 180.000</p>
+        </div>
+
+        <div class="col-l" onclick="buy('Training hitam', 80000)">
+          <img src="../assets/images/product-12.jpg" alt="">
+          <h4>Training hitam</h4>
+          <p>Rp. 80.000</p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </main>
+  
+  <footer>
+    <p>Copyright <span id="year"></span>🧤</p> 
+  </footer>
+
+  <script src="../assets/source.js"></script>
+
+</body>
+</html>
